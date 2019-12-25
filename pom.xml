@@ -25,11 +25,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-
+		<!-- Provide system version dependancy of mysql -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.14</version><!--$NO-MVN-MAN-VER$-->
+			<version>8.0.14</version><!--$NO-MVN-MAN-VER$ -->
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
